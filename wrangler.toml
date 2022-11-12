@@ -1,3 +1,8 @@
 name = "cloudflare-d1-sandbox"
 main = "src/index.ts"
 compatibility_date = "2022-11-12"
+
+[[ d1_databases ]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "mugidb"
+database_id = "5601a05a-b92b-4f23-9a08-34b5b8cbabd6"
